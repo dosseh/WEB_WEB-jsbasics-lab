@@ -1,0 +1,23 @@
+{
+  "name": "js-basics-lab",
+  "version": "1.0.0",
+  "description": "First Lab of the 'WEB' lecture for the iWOCS Master degree",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "pretest": "eslint src",
+    "ci": "jest --ci --coverage --color=false",
+    "preci": "eslint --no-color src"
+  },
+  "keywords": [],
+  "author": " Yoann Pigné",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "eslint": "^5.13.0",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {}
+}
